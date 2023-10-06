@@ -1,0 +1,31 @@
+.movies-container{
+    width: 100%;
+    display: flex;
+    padding: 12px 50px;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.movies-left-container{
+    width: 50%;
+    display: inline;
+}
+.movies-sort-dropdown-bar{
+    width: 100%;
+}
+.movies-sort-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+.movies-card-container{
+    width: calc(100% - 250px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
